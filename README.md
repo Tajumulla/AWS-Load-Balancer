@@ -49,7 +49,7 @@ User → ELB → Auto Scaling Group → EC2 Instances → S3 (Static Files)
 | Metric          | Before Optimization | After Optimization |
 |---------------|-------------------|----------------|
 | Uptime        | ~90%              | 92.9%          |
-| Load Time     | ~3s               | ~1.2s          |
+| Load Time     | ~3s               | ~2.1s          |
 | Auto Scaling  | No                 | Enabled        |
 | Cost Savings  | High fixed costs   | Optimized usage |
 
